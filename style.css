@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+
+}
+.list-item{
+   
+    font-size: 20px;
+    /* font: bold; */
+    font-weight: 510;
+}
+.active{
+    border-bottom: 5px solid #000000;
+}
+.button-group{
+ display: flex;
+ gap: 20px;
+    
+}
+.nav-button{
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 7px 40px;
+    background-color: transparent;
+    color: grey;
+    margin-right: 80px;
+}
+.star-top{
+    float: right;
+
+}
+.star-top img{
+    height: 50px;
+    margin-right: 58px;
+    margin-top: 30px;
+
+}
+.square img{
+    height: 300px;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 200px;
+    
+}
+.hero-img{
+    position: absolute;
+    top: 190px;
+    
+}
+.hero-img img{
+    height: 400px;
+   
+}
+.globe{
+    position: relative;
+    top: -450px;
+    left:150px;
+}
+.globe img{
+    height: 50px;
+   
+}
+.star{
+   position: relative;
+   left: 100px;
+}
+.star img{
+   height:40px ;
+}
+.hero-container-right{
+    float: right;
+    width: 650px;
+    margin-top: 150px;
+}
+.hero-heading{
+    font-size: 60px;
+}
+.hero-description{
+    font-size: 14px;
+    margin-top: 25px;
+
+}
+.button-connect{
+    margin:70px 29%;
+}
+.button-email{
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 18px;
+    padding: 2px 20px;
+    margin-right: 10px;
+    color: grey;
+    
+    
+}
+.button-join{
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+}
+.bottom-contact{
+    margin: 0 30%;
+    margin-top: 80px;
+}
+.contact-heading{
+    margin-left: 50px;
+}
+.icons span{
+    margin-right: 10px;
+}
